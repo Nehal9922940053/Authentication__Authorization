@@ -1,0 +1,109 @@
+.main_signuppage{
+    display:flex;
+    margin-top: 20px !important;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.maincomponent_signuppage{
+    width: 350px;
+    height: 390px;
+    border:4px solid grey;
+    border-radius:20px;
+    margin-top:20px;
+    text-align: center;
+    background-color:white;
+}
+
+
+.logo_signuppage{
+    width:120px;
+    margin:20px;
+
+}
+
+.input_signup{
+    margin-top: 5px;
+
+}
+
+.inp{
+    width:250px;
+    height:35px;
+    margin: 5px 10px 5px 10px;
+    border:1px solid grey;
+    background-color:#FAFAFA;
+    padding-left:10px;
+    /* border: radius 5px; */
+} 
+
+.signup{
+    padding:6px 18px;
+    text-align:center;
+    color:rgb(115, 114, 114);
+    font-size:18px;
+    font-weight:500;
+}
+
+
+.btn{
+    margin-top:10px;
+width:265px;
+height:30px;
+font-weight:bold;
+border:1px solid #0385F6;
+background-color:#0095ff;
+color:white;
+padding:6px 48px;
+border-radius:8px;
+
+
+
+}
+.btn img{
+    float:left;
+    justify-content:center;
+    /* margin-left:65px; */
+    align-items:center;
+    width:16px; 
+    height:16px;
+
+}
+
+
+
+.maincomponent_loginlink{
+    width: 350px;
+    height: 60px;
+    margin-top:0px;
+    text-align: center;
+    background-color:white;
+}
+
+.signup_login_opt{
+    font-weight:400;
+    font-size:14px;
+}
+
+.signup_login_opt .have_acct span a{
+    font-weight:600;
+    color:#42b4ed;
+}
+
+.downloadapp .get_app{
+    display: flex;
+    margin-top:15px;
+    font-weight: 400;
+    font-size:15px;
+    justify-content:center;
+}
+
+
+.apps img{
+    width:100px;
+    height:35px;
+    padding: 8px;
+}
+ 

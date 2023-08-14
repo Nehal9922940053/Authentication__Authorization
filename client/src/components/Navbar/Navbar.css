@@ -1,0 +1,59 @@
+header {
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.1rem 5rem;
+    background:  #0078f9;
+    height:3.8rem;
+}
+
+.brand a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 2rem; */
+}
+
+li {
+
+    list-style-type: none;
+    margin-left: 3rem;
+   
+
+}
+
+li > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+   
+   
+}
+
+
+li::after {
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #fff;
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0.2 auto 0.5 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover::after {
+    width: 2rem;
+}
+
+li .btn{
+    margin: -22px auto ;
+}

@@ -1,0 +1,79 @@
+.main_loginpage{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 30px;
+}
+
+.rightcomponent_loginpage{
+    width: 300px;
+    height: 350px;
+    padding:15px;
+    border:5px solid rgb(122, 118, 118);
+    border-radius: 20px;
+    margin-top:20px;
+    text-align: center;
+    /* background-color:rgb(255, 199, 86); */
+}
+
+
+.title{
+    margin-top: 1px;
+    width: 290px;
+    height: 40px;
+    background: #0099ff;
+    color: #ffffff;
+    border-radius: 40px;
+}
+
+.title h1{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+
+.inp{
+    width:250px;
+    height:35px;
+    margin: 8px 10px 8px 10px;
+    border:1px solid grey;
+    background-color:#FAFAFA;
+    padding-left:10px;
+    /* border: radius 5px; */
+}
+
+#image::-webkit-file-upload-button{
+    border:none;
+    margin-left:-10px;
+    background:rgb(85, 85, 85);
+    padding:10px 15px;
+    font-weight:600;
+    color: #ffffff;
+}
+
+
+.btn{
+width:auto;
+height:40px;
+font-weight:500;
+ border:1px solid #ffffff;
+background-color:#1077ff; 
+color:rgb(255, 255, 255);
+margin-top:10px;
+border-radius:8px;
+font-size: 20px;
+}
+
+.form{
+    margin-top: 20px;
+}
+
+
+.forgot_pass a{
+    display: flex;
+    justify-content:center;
+    margin-top:40px;
+    font-size:10px;
+}
+
+

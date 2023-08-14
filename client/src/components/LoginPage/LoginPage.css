@@ -1,0 +1,96 @@
+.main_loginpage{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        margin-top: 10px;
+
+    }
+    
+    .rightcomponent_loginpage{
+        width: 280px;
+        height:auto;
+        padding:15px;
+        border:4px solid grey;
+        margin-top:10px;
+        text-align: center;
+       
+    }
+    
+    
+    .inp{
+        width:250px;
+        height:30px;
+        margin:5px 10px 5px 10px;
+        border:1px solid grey;
+        background-color:#FAFAFA;
+        padding-left:10px;
+        /* border: radius 5px; */
+    }
+    
+    
+    .btn{
+    width:265px;
+    height:30px;
+    font-weight:bold;
+    border:1px solid #ffffff;
+    background-color:#004cff; 
+    color:rgb(255, 255, 255);
+    margin-top:10px;
+    border-radius:8px;
+   
+    
+    }
+  
+
+   
+    .forgot_pass a{
+        display: flex;
+        justify-content:center;
+        margin-top:40px;
+        font-size:10px;
+    }
+    
+    
+    
+    .rightcomponent_signuplink{
+        display:flex;
+        width: 280px;
+        height:45px;
+        /* border:1px solid grey; */
+        margin-top:-1px;
+        text-align: center;
+        background-color:white;
+    }
+    
+    
+    
+    
+    .signin_login_opt{
+        font-weight:400;
+        font-size:13px; 
+    
+    
+    }
+    .dnt_acct{
+        padding:16px 40px;
+        }
+    
+    .have_acct{
+    padding:16px 80px;
+    }
+    
+    .signin_login_opt .have_acct span a{
+        font-weight:600;
+        color:#01aaff;
+    
+        
+    }
+    .signin_login_opt .dnt_acct span a{
+        font-weight:600;
+        color:#01aaff;
+    
+        
+    }
+    
+
+    
