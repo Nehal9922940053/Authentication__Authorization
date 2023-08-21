@@ -16,7 +16,7 @@ function App() {
     <BrowserRouter>
     <Routes>
     
-    <Route path="/pokemon_detail/:id" element={<PokemonDetail/>}/>
+    <Route path="/pokemon_detail/:pokemon_id" element={<PokemonDetail/>}/>
     <Route path="/getpokemon" element={<PokemonTable/>}/>
     <Route path="/create" element={<CreatePokemon/>}/>
    <Route path="/signup" element={<SignupPage/>}/>

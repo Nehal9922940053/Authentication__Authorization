@@ -187,6 +187,10 @@ app.get('/getpokemon', (req, res) => {
 //     }
 //   });
   
+app.get('/logout',(req,res)=>{
+    res.clearCookie('token');
+    return res.json({ status:"Success"});
+})
 
 app.listen(PORT,()=>{
     console.log(`Server started at http://localhost:${PORT}`);

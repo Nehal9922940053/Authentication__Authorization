@@ -40,6 +40,11 @@ const navigate=useNavigate();
   //   }
   // };
 
+  const moreDetails =async (pokemon)=>{
+    console.log(pokemon);
+    navigate('/pokemon_detail/'+pokemon.pokemon_id)
+    // const response = await axios.get('http://localhost:5000/pokemon_detail'+pokemon.id)
+  }
    
 
   
@@ -60,8 +65,8 @@ const navigate=useNavigate();
 // {pokemons.filter((pokemon) => pokemon._id.str.includes(query))
 //   .map((pokemon) => (*/}
   {pokemons.map((pokemon) => (
-<tr key={pokemon.pokemon_id}>
-   <td>{pokemon.pokemon_id}</td>
+<tr key={pokemon.pokemon_id} onClick={()=>moreDetails(pokemon)}>
+   <td >{pokemon.pokemon_id}</td>
   <td>{pokemon.name}</td>
   <td>{pokemon.type}</td>
   <td><img src={`http://localhost:5000/${pokemon.imagePath}`} alt=''/></td>
@@ -69,6 +74,8 @@ const navigate=useNavigate();
 ))}
 
 </table>
+
+
 </div>
  </div>
   )
